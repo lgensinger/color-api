@@ -1,0 +1,57 @@
+# Compiled source #
+###################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.pyc
+*.swp
+
+# Compiled binary addons (http://nodejs.org/api/addons.html)
+build/Release
+dist/
+
+# Packages #
+############
+# it's better to unpack these files and commit the raw source
+# git has its own built in compression methods
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
+######################
+logs
+*.log
+npm-debug.log*
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Runtime data #
+######################
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Directories #
+###############
+
+node_modules
+dist
+*/__pycache__
